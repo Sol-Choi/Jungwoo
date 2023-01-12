@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import url("./main.css");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap');
 
 /* ==============================
 * content
@@ -97,7 +97,7 @@
 /* locationTitle */
 .locationTitleWrap { text-align:center;}
 .locationTitle { position:relative; display:inline-block; min-width:300px; margin:50px auto 0; border-bottom:1px solid #e0d5b4;}
-.locationTitle > a { display:flex; position:relative; height:100px; padding:0 50px 0 20px; align-items: center; font-family: 'baskerville old face'; font-size:30px; color:#111;}
+.locationTitle > a { display:flex; position:relative; height:100px; padding:0 50px 0 20px; align-items: center; font-family: 'Nanum Gothic', sans-serif; font-size:30px; color:#111;}
 .locationTitle > a:after { content:''; display:block; position:absolute; top:50%; right:20px; width:16px; height:9px; background:url('../images/common/ico_location_arrow.png') no-repeat center center /100%; transform: translateY(-50%); transition: all .3s ease;}
 .locationTitle .view { display:none; overflow:hidden; overflow-y: auto; position:absolute; top:100px; left:0; right:0; z-index:2; max-height:410px; border:1px solid #999999; border-radius:0 0 8px 8px; background:#fff;}
 .locationTitle .view li + li { border-top:1px solid #e7e8ef;}
@@ -235,7 +235,7 @@ html:not(.mobile) .imgList > a:hover .tit:after { width:20%;}
 .visionBox .sec02 .img img { box-shadow:0 140px 150px rgba(0,0,0,0.06)}
 .visionBox .sec02 .textBox { margin-left:auto; width:50%; max-width:500px;}
 .visionBox .sec02 .textBox .tit { margin-bottom:60px; font-size:24px; color:#e0d5b3; font-weight:bold;}
-.visionBox .sec02 .textBox .text { margin-top:20px; font-size:18px; color:#111111; letter-spacing: -1px; line-height:1.55;}
+.visionBox .sec02 locationTitleWrap { margin-top:20px; font-size:18px; color:#111111; letter-spacing: -1px; line-height:1.55;}
 
 /* certificate */
 .certificateBox { margin-top:100px;}
